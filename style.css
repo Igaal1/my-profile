@@ -1,0 +1,71 @@
+body {
+	background: #f1f1f1;
+	color: rgba(30,30,30,1.0);
+	font-family: 'Lora', serif;
+	font-size: 20px;
+	font-weight: lighter;
+}
+h1, h2{
+	font-family: 'Roboto', sans-serif;
+	color: #19376D;
+}
+a{
+	text-decoration: none;
+	color: #19376D;
+	font-weight: bold;
+}
+a:hover{
+	color: #576CBC;
+}
+#img-circle { 
+  width: 100px;
+  border-radius: 50%;
+
+}
+#tete {
+	width: 800px;
+    margin: 40px auto;
+}
+@media(max-width: 500px){
+	#tete{
+		width: 400px;
+	}
+}
+.class {
+	background: white;
+	width: 700px;
+	padding: 60px;
+	margin: 50px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	text-align: center;
+}
+.btn-blue {
+	background-color: #19376D;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 5px;
+}
+.btn-blue:hover{
+	background-color: black;
+	color: white;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: rgb(220, 220, 220);
+}
+.list-inline i:hover {
+	font-size: 50px;
+	color: black;
+}
+#tete p {
+	margin-bottom: 40px;
+}
